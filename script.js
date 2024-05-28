@@ -26,6 +26,33 @@ const teamMembers = [
         strengths: 'Animals',
         weaknesses: 'Jack Frost & his Goblins',
         biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
+    },
+    {
+        name: 'Pippa the Poppy Fairy',
+        imageURL: 'pippa.jpg', // Added the imageURL for Katie
+        type: 'Flower Fairy',
+        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
+        strengths: 'Animals',
+        weaknesses: 'Jack Frost & his Goblins',
+        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
+    },
+    {
+        name: 'Roxie the Baking Fairy',
+        imageURL: 'roxie.webp', // Added the imageURL for Katie
+        type: 'Talent Fairy',
+        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
+        strengths: 'Animals',
+        weaknesses: 'Jack Frost & his Goblins',
+        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
+    },
+    {
+        name: 'Ellie the Guitar Fairy',
+        imageURL: 'ellie.webp', // Added the imageURL for Katie
+        type: 'Music Fairy',
+        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
+        strengths: 'Animals',
+        weaknesses: 'Jack Frost & his Goblins',
+        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
     }
 ];
 
@@ -46,14 +73,14 @@ function generateTeamCards() {
             case 'animal fairy':
                 backgroundColor = '#28a745'; // Green for animal fairy
                 break;
-            case 'defender':
-                backgroundColor = '#007bff'; // Blue for defenders
+            case 'flower fairy':
+                backgroundColor = '#007bff'; // Blue for flower
                 break;
-            case 'goalkeeper':
-                backgroundColor = '#dc3545'; // Red for goalkeepers
+            case 'talent fairy':
+                backgroundColor = '#dc3545'; // Red for talent
                 break;
             default:
-                backgroundColor = '#6c757d'; // Gray for other positions
+                backgroundColor = '#800080'; // purple for other positions
         }
         card.style.backgroundColor = backgroundColor;
 

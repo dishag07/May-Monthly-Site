@@ -22,38 +22,38 @@ const teamMembers = [
         name: 'Ruby the Red Fairy',
         imageURL: 'ruby.jpg', // Added the imageURL for Katie
         type: 'Color Fairy',
-        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
-        strengths: 'Animals',
-        weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
-    },
+        skills: ['Spreading happiness', 'Coloring the world red', 'Playing with Rachel & Kristy'],
+  strengths: 'Bringing joy and color',
+  weaknesses: 'Jack Frost & his Goblins',
+  biography: 'Ruby is a fairy who loves the color red and has the magical ability to spread happiness wherever she goes.'
+},
     {
         name: 'Pippa the Poppy Fairy',
         imageURL: 'pippa.jpg', // Added the imageURL for Katie
         type: 'Flower Fairy',
-        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
-        strengths: 'Animals',
+        skills: ['Tending to poppies', 'Bringing color to gardens', 'Playing with Rachel & Kristy'],
+        strengths: 'Flowers and gardening',
         weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
-    },
+        biography: 'Pippa is a fairy who loves poppies and has a special bond with them, bringing vibrant color to every garden she visits.'
+      },
     {
         name: 'Roxie the Baking Fairy',
         imageURL: 'roxie.webp', // Added the imageURL for Katie
         type: 'Talent Fairy',
-        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
-        strengths: 'Animals',
+        skills: ['Baking delicious treats', 'Decorating cakes', 'Playing with Rachel & Kristy'],
+        strengths: 'Baking and confectionery',
         weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
-    },
+        biography: 'Roxie is a fairy who loves baking and has a special talent for creating the most delightful treats, spreading joy with her delicious creations.'
+      },
     {
         name: 'Ellie the Guitar Fairy',
         imageURL: 'ellie.webp', // Added the imageURL for Katie
         type: 'Music Fairy',
-        skills: ['Communicating with animals', 'Cat whispering', 'Playing with Rachel & Kristy'],
-        strengths: 'Animals',
+        skills: ['Playing the guitar', 'Composing music', 'Playing with Rachel & Kristy'],
+        strengths: 'Music and creativity',
         weaknesses: 'Jack Frost & his Goblins',
-        biography: 'Katie is a fairy who loves kittens and has a special bond with them.'
-    }
+        biography: 'Ellie is a fairy who loves playing the guitar and has a special talent for composing beautiful music, bringing harmony and joy wherever she goes.'
+      }
 ];
 
 function generateTeamCards() {
